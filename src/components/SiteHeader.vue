@@ -1,6 +1,52 @@
 <script>
 export default {
-    name: 'SiteHeader'
+    name: 'SiteHeader',
+    data() {
+        return {
+            menu: [
+                {
+                    text: 'characters',
+                    href: '#'
+                },
+                {
+                    text: 'comics',
+                    href: '#'
+                },
+                {
+                    text: 'movies',
+                    href: '#'
+                },
+                {
+                    text: 'tv',
+                    href: '#'
+                },
+                {
+                    text: 'games',
+                    href: '#'
+                },
+                {
+                    text: 'collectibles',
+                    href: '#'
+                },
+                {
+                    text: 'videos',
+                    href: '#'
+                },
+                {
+                    text: 'fans',
+                    href: '#'
+                },
+                {
+                    text: 'new',
+                    href: '#'
+                },
+                {
+                    text: 'shop',
+                    href: '#'
+                }
+            ]
+        }
+    }
 }
 </script>
 
@@ -11,18 +57,8 @@ export default {
                 <img src="../assets/img/dc-logo.png" alt="dc logo">
             </div>
             <nav>
-                <ul>
-                    <li><a href="">characters</a></li>
-                    <li><a href="">comics</a></li>
-                    <li><a href="">movies</a></li>
-                    <li><a href="">tv</a></li>
-                    <li><a href="">games</a></li>
-                    <li><a href="">collectibles</a></li>
-                    <li><a href="">videos</a></li>
-                    <li><a href="">fans</a></li>
-                    <li><a href="">news</a></li>
-                    <li><a href="">shop</a></li>
-                </ul>
+                <a href="item.href" v-for="item in menu">{{ item.text }}</a>
+
             </nav>
         </div>
 
