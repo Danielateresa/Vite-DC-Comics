@@ -29,6 +29,10 @@ header {
         &:hover {
             border-bottom: 2px solid $blue;
         }
+
+        &.active {
+            border-bottom: 2px solid $blue;
+        }
     }
 
 

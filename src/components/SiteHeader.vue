@@ -59,7 +59,7 @@ export default {
                 <img src="../assets/img/dc-logo.png" alt="dc logo">
             </div>
             <nav class="navbar py-0">
-                <div class="link_box ms-4" v-for="item in menu">
+                <div class="link_box ms-4" v-for="item in menu" :class="item.text === 'comics' ? 'active' : ''">
                     <a href="item.href">{{
                             item.text
                     }}</a>

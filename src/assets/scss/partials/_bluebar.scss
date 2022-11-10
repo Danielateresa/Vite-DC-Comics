@@ -1,0 +1,21 @@
+@use './variables' as*;
+
+
+.blue_bar {
+    background-color: $blue;
+    padding: 30px 100px;
+
+
+    .buy_logo {
+        height: 60px;
+    }
+
+    img {
+        margin-right: 1rem;
+    }
+
+    span {
+        color: $light;
+        align-self: center;
+    }
+}
