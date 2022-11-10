@@ -80,9 +80,4 @@ export default {
 nav {
     text-transform: uppercase;
 }
-
-ul {
-    display: flex;
-
-}
 </style>
