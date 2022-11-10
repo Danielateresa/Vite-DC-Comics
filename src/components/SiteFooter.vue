@@ -53,23 +53,48 @@ export default {
                     <div class="col-4">
                         <div class="row">
                             <div class="col-4">
-                                <h2>
+                                <h5>
                                     dc comics
-                                </h2>
-
-                                <h2>
+                                </h5>
+                                <ul>
+                                    <li><a href="">Characters</a></li>
+                                    <li><a href="">Comics</a></li>
+                                    <li><a href="">Movies</a></li>
+                                    <li><a href="">TV</a></li>
+                                    <li><a href="">Games</a></li>
+                                    <li><a href="">Videos</a></li>
+                                    <li><a href="">News</a></li>
+                                </ul>
+                                <h5>
                                     shop
-                                </h2>
+                                </h5>
+                                <ul>
+                                    <li><a href="">Shop DC</a></li>
+                                    <li><a href="">Shop DC Collectibles</a></li>
+                                </ul>
                             </div>
                             <div class="col-4">
-                                <h2>
+                                <h5>
                                     dc
-                                </h2>
+                                </h5>
+                                <ul>
+                                    <li><a href="">Terms Of Use</a></li>
+                                    <li><a href="">Privacy Policy (new)</a></li>
+                                    <li><a href="">Ad Choices</a></li>
+                                    <li><a href="">Advertising</a></li>
+                                    <li><a href="">Jobs</a></li>
+                                    <li><a href="">Subscription</a></li>
+                                    <li><a href="">Talent Workshops</a></li>
+                                    <li><a href="">CPSC Certificates</a></li>
+                                    <li><a href="">Ratings</a></li>
+                                    <li><a href="">Shop Help</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
                             </div>
                             <div class="col-4">
-                                <h2>
+                                <h5>
                                     sites
-                                </h2>
+                                </h5>
                             </div>
                         </div>
                     </div>

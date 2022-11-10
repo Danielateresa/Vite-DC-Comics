@@ -2,6 +2,10 @@
 
 footer {
 
+    .upper_footer {
+        background-image: url(../img/footer-bg.jpg);
+    }
+
     .blue_bar {
         background-color: $blue;
         padding: 3rem
@@ -19,5 +23,21 @@ footer {
         font-weight: bold;
         color: $light;
         align-self: center;
+    }
+
+    h5 {
+        color: $light;
+        text-transform: uppercase;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        a {
+            text-decoration: none;
+            color: $grey;
+            font-weight: 400;
+        }
     }
 }
