@@ -3,10 +3,31 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+
+  --dc-blue: #0282F9;
+  --dc-dark: #1C1C1C;
+  --dc-grey: #959595;
+  --dc-light: #FFFFFF;
+
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dc-dark);
+  font-weight: bold;
+}
+
+
+img {
+  max-width: 100%;
 }
