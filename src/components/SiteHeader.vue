@@ -3,6 +3,7 @@ export default {
     name: 'SiteHeader',
     data() {
         return {
+            activeLink: 0,
             menu: [
                 {
                     text: 'characters',
@@ -52,12 +53,14 @@ export default {
 
 <template>
     <header id="site_header">
-        <div class="container">
+        <div class="container py-3 d-flex align-items-center justify-content-between center text-uppercase">
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="dc logo">
             </div>
-            <nav>
-                <a href="item.href" v-for="item in menu">{{ item.text }}</a>
+            <nav class="navbar">
+                <a class="me-4" href="item.href" v-for="item in menu">{{
+                        item.text
+                }}</a>
 
             </nav>
         </div>
@@ -66,18 +69,6 @@ export default {
     <!-- /#site_header -->
 </template>
 
-<style scoped>
-.container {
-    display: flex;
-    align-items: center;
-}
+<style lang="scss" scoped>
 
-.logo {
-    width: 80px;
-    aspect-ratio: 1/1;
-}
-
-nav {
-    text-transform: uppercase;
-}
 </style>

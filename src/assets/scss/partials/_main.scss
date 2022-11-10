@@ -1,0 +1,12 @@
+@use './variables' as*;
+
+main {
+
+
+    background-color: $dark;
+
+    h1 {
+        color: $light;
+        padding: 3rem;
+    }
+}

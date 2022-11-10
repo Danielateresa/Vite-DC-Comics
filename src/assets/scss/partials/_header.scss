@@ -1,0 +1,26 @@
+@use './variables' as*;
+
+header {
+
+
+    .logo {
+        width: 80px;
+        aspect-ratio: 1/1;
+
+    }
+
+    nav {
+        text-transform: uppercase;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--dc-dark);
+        font-weight: bold;
+    }
+
+    &.active {
+        border-bottom: 2px solid $blue;
+        padding: 1.5rem;
+    }
+}

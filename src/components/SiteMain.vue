@@ -14,14 +14,7 @@ export default {
     <!-- /#site_main -->
 </template>
 
-<style scoped>
-main {
-    background-color: var(--dc-dark);
-}
+<style lang="scss" scoped>
 
-h1 {
-    color: var(--dc-light);
-    padding: 3rem;
-}
 </style>
 
