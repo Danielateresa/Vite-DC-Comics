@@ -4,6 +4,14 @@ footer {
 
     .upper_footer {
         background-image: url(../img/footer-bg.jpg);
+
+    }
+
+    .container {
+        background-image: url('../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+
     }
 
     .blue_bar {
@@ -40,4 +48,6 @@ footer {
             font-weight: 400;
         }
     }
+
+
 }

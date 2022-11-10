@@ -47,11 +47,11 @@ export default {
         </div>
         <!-- /.blue_bar-->
 
-        <div class="upper_footer">
+        <div class="upper_footer pt-4 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="row">
+                    <div class="col-4 left_col">
+                        <div class="row ">
                             <div class="col-4">
                                 <h5>
                                     dc comics
@@ -95,6 +95,14 @@ export default {
                                 <h5>
                                     sites
                                 </h5>
+                                <ul>
+                                    <li><a href="">DC</a></li>
+                                    <li><a href="">MAD Magazine</a></li>
+                                    <li><a href="">DC Kids</a></li>
+                                    <li><a href="">DC Universe</a></li>
+                                    <li><a href="">DC Power Visa</a></li>
+
+                                </ul>
                             </div>
                         </div>
                     </div>
