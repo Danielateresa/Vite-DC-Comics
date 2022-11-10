@@ -2,21 +2,21 @@
 
 footer {
 
+
     .upper_footer {
         background-image: url(../img/footer-bg.jpg);
 
-    }
+        .logo_layer_footer {
+            background-image: url('../img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
 
-    .container {
-        background-image: url('../img/dc-logo-bg.png');
-        background-repeat: no-repeat;
-        background-position: right;
-
+        }
     }
 
     .blue_bar {
         background-color: $blue;
-        padding: 3rem
+        padding: 30px 100px
     }
 
     .buy_logo {
@@ -36,6 +36,7 @@ footer {
     h5 {
         color: $light;
         text-transform: uppercase;
+        margin-top: auto;
     }
 
     ul {
@@ -49,5 +50,21 @@ footer {
         }
     }
 
+    .bottom_footer {
+        background-color: $dark;
+
+        padding: 2rem;
+
+        .btn {
+            border: 2px solid $blue;
+            border-radius: 0%;
+            color: $light;
+            background-color: none;
+            margin-left: 2rem;
+            text-transform: uppercase;
+        }
+
+
+    }
 
 }
