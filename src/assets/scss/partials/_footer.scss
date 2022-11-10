@@ -1,0 +1,23 @@
+@use './variables' as*;
+
+footer {
+
+    .blue_bar {
+        background-color: $blue;
+        padding: 3rem
+    }
+
+    .buy_logo {
+        height: 60px;
+    }
+
+    img {
+        margin-right: 1rem;
+    }
+
+    span {
+        font-weight: bold;
+        color: $light;
+        align-self: center;
+    }
+}

@@ -12,33 +12,33 @@ export default {
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="buy_logo">
+                        <div class="buy_logo d-flex text-uppercase">
                             <img src="../assets/img/buy-comics-digital-comics.png" alt="dc tablet">
-                            <h3>digital comics</h3>
+                            <span>digital comics</span>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="buy_logo">
+                        <div class="buy_logo d-flex text-uppercase">
                             <img src="../assets/img/buy-comics-merchandise.png" alt="lanterna t-shirt">
-                            <h3>dc merchandise</h3>
+                            <span>dc merchandise</span>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="buy_logo">
+                        <div class="buy_logo d-flex text-uppercase">
                             <img src="../assets/img/buy-comics-subscriptions.png" alt="card">
-                            <h3>subscription</h3>
+                            <span>subscription</span>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="buy_logo">
+                        <div class="buy_logo d-flex text-uppercase">
                             <img src="../assets/img/buy-comics-shop-locator.png" alt="locator">
-                            <h3>comic shop location</h3>
+                            <span>comic shop location</span>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="buy_logo">
+                        <div class="buy_logo d-flex text-uppercase">
                             <img src="../assets/img/buy-dc-power-visa.svg" alt="power card">
-                            <h3>dc power visa</h3>
+                            <span>dc power visa</span>
                         </div>
 
                     </div>
@@ -95,13 +95,6 @@ export default {
 
 </template>
 
-<style>
-.blue_bar {
-    background-color: var(--dc-blue);
-    padding: 3rem
-}
+<style lang="scss" scoped>
 
-.buy_logo {
-    height: 60px;
-}
 </style>
