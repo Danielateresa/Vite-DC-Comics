@@ -47,20 +47,23 @@ export default {
                 }
             ]
         }
-    }
+    },
+
 }
 </script>
 
 <template>
     <header id="site_header">
-        <div class="container py-3 d-flex align-items-center justify-content-between center text-uppercase">
+        <div class="container d-flex align-items-center justify-content-between center text-uppercase">
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="dc logo">
             </div>
-            <nav class="navbar">
-                <a class="me-4" href="item.href" v-for="item in menu">{{
-                        item.text
-                }}</a>
+            <nav class="navbar py-0">
+                <div class="link_box ms-4" v-for="item in menu">
+                    <a href="item.href">{{
+                            item.text
+                    }}</a>
+                </div>
 
             </nav>
         </div>
