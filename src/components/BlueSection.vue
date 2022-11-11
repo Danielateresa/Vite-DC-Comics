@@ -14,11 +14,11 @@ export default {
                     text: 'dc merchandise',
                 },
                 {
-                    icon: 'buy-comics-shop-locator.png',
-                    text: 'subescription',
+                    icon: 'buy-comics-subscriptions.png',
+                    text: 'subscription',
                 },
                 {
-                    icon: 'buy-comics-subscriptions.png',
+                    icon: 'buy-comics-shop-locator.png',
                     text: 'comic shop locator',
                 },
                 {
