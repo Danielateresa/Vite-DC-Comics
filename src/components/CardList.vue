@@ -1,5 +1,5 @@
 <script>
-import Card from './Card.vue'; //singola card da fare
+import Card from './CardItem.vue'; //singola card da fare
 import cards from '../data/comics.js';
 
 export default {
