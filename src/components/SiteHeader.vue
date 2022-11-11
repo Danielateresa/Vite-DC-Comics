@@ -3,7 +3,7 @@ export default {
     name: 'SiteHeader',
     data() {
         return {
-            activeLink: 0,
+
             menu: [
                 {
                     text: 'characters',

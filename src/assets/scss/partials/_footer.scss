@@ -38,7 +38,7 @@ footer {
     }
 
     .bottom_footer {
-        background-color: $dark;
+        background-color: $secondBlack;
 
         padding: 2rem;
 
@@ -51,7 +51,9 @@ footer {
             text-transform: uppercase;
         }
 
-
+        h5 {
+            color: $blue;
+        }
     }
 
     img {

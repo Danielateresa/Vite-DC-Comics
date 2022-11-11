@@ -1,6 +1,10 @@
 <script>
+import BlueSection from './BlueSection.vue';
 export default {
-    name: 'SiteMain'
+    name: 'SiteMain',
+    components: {
+        BlueSection,
+    }
 }
 </script>
 
@@ -10,6 +14,9 @@ export default {
             <h1>
                 -->Content goes here-- </h1>
         </div>
+
+        <BlueSection />
+
     </main>
     <!-- /#site_main -->
 </template>
