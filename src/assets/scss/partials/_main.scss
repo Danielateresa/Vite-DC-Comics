@@ -5,8 +5,64 @@ main {
 
     background-color: $dark;
 
+
     h1 {
         color: $light;
         padding: 3rem;
+    }
+
+    .comics_jumbotron {
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+
+    .cards {
+        position: relative;
+    }
+
+    .comic_card {
+
+        img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 1rem;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .tag {
+        position: absolute;
+        top: -15px;
+
+
+        span {
+            background-color: $blue;
+            padding: 0.5rem 1rem;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    span {
+        text-transform: uppercase;
+        color: $light;
+
+    }
+
+    .load_more {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $light;
+        background-color: $blue;
+        padding: 0.5rem 3rem;
+        border-radius: 0;
     }
 }
